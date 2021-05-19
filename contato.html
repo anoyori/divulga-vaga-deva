@@ -5,32 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<li>
-    <a href = "index.html">HOME</a>
-</li>
-<li>
-    <a href = "contato.html">CONTATO</a>
-</li>
+<ul id="menu">
+    <li>
+        <a href = "index.html">HOME</a>
+    </li>
+    <li>
+        <a href = "contato.html">CONTATO</a>
+    </li>
 </ul>
 <body>
-    <h1>Entre em contato conosco</h1>
-    <form>
-        <label for="nome">Nome:</label><br>
-        <br>
-        <input type="nome" id="nome">
-        <br>
-        <br>
-        <label for="email">E-mail:</label><br>
-        <br>
-        <input type="email" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label><br>
-        <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
-    </form>
-    <h2>Endereço:</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7397473925485!2d-46.68878978538365!3d-23.577788768083476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce576db16f56a3%3A0xdf2dded615839e5f!2sAv.%20Brg.%20Faria%20Lima%2C%201811%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-001!5e0!3m2!1spt-BR!2sbr!4v1621356373237!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <h1 class="center">Entre em contato conosco</h1>
+        <div class="container mb-50">
+            <div>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <br>
+                <input type="nome" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label><br>
+                <br>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="10"></textarea>
+            </form>
+            </div>
+        
+             <div class="ml-50">  
+                <h2>Endereço:</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7397473925485!2d-46.68878978538365!3d-23.577788768083476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce576db16f56a3%3A0xdf2dded615839e5f!2sAv.%20Brg.%20Faria%20Lima%2C%201811%20-%20Jardim%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001452-001!5e0!3m2!1spt-BR!2sbr!4v1621356373237!5m2!1spt-BR!2sbr" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+        </div>
+    <hr>
+    <footer> <!-- Rodapé -->
+        <div class="container">
+            <a href="https://github.com/anoyori" target="_blank"> <!--target abre uma nova aba-->
+                <img class="size-icon p-30" src="assets/img/github.png" alt="Logo Github">
+            </a>
+            <a href="https://www.linkedin.com/in/amanda-noyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/linkedin.png" alt="Logo Linkedin">
+            </a>
+            <a href="https://www.instagram.com/anoyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Amanda Noyori &copy <!--&copy símbolo para copyright-->
+        </p>
+    </footer>
 </body>
 </html>

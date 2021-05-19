@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divulga Vaga Deva</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<ul>
+<ul id="menu">
     <li>
         <a href = "index.html">HOME</a>
     </li>
@@ -14,30 +15,68 @@
         <a href = "contato.html">CONTATO</a>
     </li>
 </ul>
-<body>
-    <h1>Divulga Vaga Deva</h1>
-    <h2>
-        <p>
-            Divulgação de vagas exclusivas para mulheres, artigos, eventos e dicas.
-        </p>
+<header>
+    <div class="container">
         <img src="assets/img/imagem1.png" alt="Imagem de">
-    </h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aperiam quaerat eius laboriosam inventore nobis, minus repudiandae animi, vel minima ratione tenetur laborum. Ipsa sunt eius blanditiis commodi, in nihil.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto ratione perferendis velit debitis eum laudantium alias quisquam unde blanditiis quo maxime consequuntur nostrum, omnis porro magni possimus nobis pariatur?
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae maiores enim dolor, quas tempora labore reiciendis aliquid aspernatur velit culpa optio tenetur at sed nisi voluptatibus sunt vero minima laboriosam?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis placeat nisi quas, veniam aperiam, adipisci nesciunt vel voluptatem tenetur nam obcaecati consequuntur ipsum reprehenderit est. Saepe error voluptate veniam odit?
-        </p>
-    <h2>Vagas</h2>
-        <p>Título: Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Requisitos: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, dolores nam ad dignissimos et itaque cumque a cupiditate aperiam provident eum enim est tempora deleniti dolorem. Quae repellendus doloribus minus.</p>
-        <p>Local: remoto</p>
-        <p>Remuneração: R$ xxxx,xx</p>
-    <h2>Eventos</h2>
-        <p> Data xx/xx/xxxx - hh:hh </p>
+    </div>
+</header>
+<body>
+    <h1 class="center">Divulga Vaga Deva</h1>
+    <h2 class="center"> Divulgação de vagas exclusivas para mulheres, artigos, eventos e dicas.</h2>
+
+    <div class="container">
+        <div class="p-30">
+            <p class="justify">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aperiam quaerat eius laboriosam inventore nobis, minus repudiandae animi, vel minima ratione tenetur laborum. Ipsa sunt eius blanditiis commodi, in nihil.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius architecto ratione perferendis velit debitis eum laudantium alias quisquam unde blanditiis quo maxime consequuntur nostrum, omnis porro magni possimus nobis pariatur?
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae maiores enim dolor, quas tempora labore reiciendis aliquid aspernatur velit culpa optio tenetur at sed nisi voluptatibus sunt vero minima laboriosam?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis placeat nisi quas, veniam aperiam, adipisci nesciunt vel voluptatem tenetur nam obcaecati consequuntur ipsum reprehenderit est. Saepe error voluptate veniam odit?
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="p-30">
+             <h2 class="center">Vagas</h2>
+
+            <h3 class="center">Título: Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="justify">Requisitos: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, dolores nam ad dignissimos et itaque cumque a cupiditate aperiam provident eum enim est tempora deleniti dolorem. Quae repellendus doloribus minus.</p>
+            <p class="center">Local: remoto</p>
+            <p class="center">Remuneração: R$ xxxx,xx</p>
+        </div>
+
+        <div class="p-30">  
+        <h2 class="center">Eventos</h2>
+
+        <h3 class="center"> Data xx/xx/xxxx - hh:hh </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laboriosam quae autem temporibus maiores voluptatibus facilis perferendis blanditiis commodi. Molestias similique hic asperiores ratione, tenetur aliquid eligendi odio nemo. Ad.</p>
-    <h2>Vídeos </h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/B6gJARLZzhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+    </div>
+
+    <h2 class="center">Vídeos </h2>
+    <div class="center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/B6gJARLZzhc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <footer> <!-- Rodapé -->
+        <div class="container">
+            <a href="https://github.com/anoyori" target="_blank"> <!--target abre uma nova aba-->
+                <img class="size-icon p-30" src="assets/img/github.png" alt="Logo Github">
+            </a>
+            <a href="https://www.linkedin.com/in/amanda-noyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/linkedin.png" alt="Logo Linkedin">
+            </a>
+            <a href="https://www.instagram.com/anoyori/" target="_blank">
+                <img class="size-icon p-30" src="assets/img/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Amanda Noyori &copy <!--&copy símbolo para copyright-->
+        </p>
+    </footer>
 </body>
 </html>
