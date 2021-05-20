@@ -4,6 +4,10 @@ body{
     font-family: 'Open Sans';
 }
 
+.border{
+  border-radius:20px;
+}
+
 .center{
     text-align: center;
 }
@@ -22,6 +26,7 @@ body{
 #menu li{
     display: inline;
     padding: 15px;
+    margin-left: 30px;
 }
 
 #menu li a{
@@ -32,16 +37,11 @@ body{
 
 #menu li a:hover{
     color:#535E53;
-    background-color: #F6DCBF;
+    background-color: white;
 }
 
 .p-30{
     padding: 30px;
-}
-
-.wh-300{
-    width: 300px;
-    height: 300px;
 }
 
 .size-icon{
